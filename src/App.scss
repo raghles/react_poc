@@ -1,0 +1,12 @@
+$pad: 1em;
+
+.page-header {
+  padding: $pad;
+  background-color: lightsteelblue;
+  font-size: x-large;
+  text-align: center;
+}
+
+.content {
+  padding: $pad;
+}

@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+<Fragment>
+  <header
+    className="page-header"
+    role="banner"
+  >
+    React POC
+  </header>
+  <section
+    className="content"
+    role="contentinfo"
+  >
+    <BrowserRouter>
+      <div>
+        <Switch>
+          <Route
+            path="/dashboard"
+          >
+            <Connect(Dashboard) />
+          </Route>
+          <Route
+            path="/"
+          >
+            <withRouter(Connect(Register)) />
+          </Route>
+        </Switch>
+      </div>
+    </BrowserRouter>
+  </section>
+</Fragment>
+`;
+
+exports[`Testing App Component should render correctly 1`] = `
+<Fragment>
+  <header
+    className="page-header"
+    role="banner"
+  >
+    React POC
+  </header>
+  <section
+    className="content"
+    role="contentinfo"
+  >
+    <BrowserRouter>
+      <div>
+        <Switch>
+          <Route
+            path="/dashboard"
+          >
+            <Connect(Dashboard) />
+          </Route>
+          <Route
+            path="/"
+          >
+            <withRouter(Connect(Register)) />
+          </Route>
+        </Switch>
+      </div>
+    </BrowserRouter>
+  </section>
+</Fragment>
+`;
